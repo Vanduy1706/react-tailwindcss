@@ -1,0 +1,56 @@
+@layer components {
+  .nav-link-active {
+    @apply text-neutral-black cursor-pointer self-center text-center w-full py-4 xl:py-0;
+  }
+  .nav-link-normal {
+    @apply text-neutral-black cursor-pointer self-center text-center w-full py-4 xl:py-0;
+  }
+  .btn-login {
+    @apply text-brand-primary bg-neutral-silver px-5 py-2.5 rounded-md;
+  }
+  .btn-register {
+    @apply text-white bg-brand-primary px-5 py-2.5 rounded-md;
+  }
+  .btn {
+    @apply text-white bg-brand-primary px-8 py-3.5 rounded w-fit;
+  }
+  .btn-no-bg {
+    @apply text-brand-primary p-2;
+  }
+  .headline-1 {
+    @apply font-inter font-semibold text-6xl/[76px];
+  }
+  .headline-2 {
+    @apply font-inter font-semibold text-4xl/[44px];
+  }
+  .headline-3 {
+    @apply font-inter font-bold text-2.5xl/[36px];
+  }
+  .headline-4 {
+    @apply font-inter font-semibold text-xl;
+  }
+  .regular-body1 {
+    @apply font-inter font-normal text-lg;
+  }
+  .regular-body2 {
+    @apply font-inter font-normal text-base;
+  }
+  .regular-body3 {
+    @apply font-inter font-normal text-sm;
+  }
+  .regular-body4 {
+    @apply font-inter font-normal text-xs;
+  }
+  .medium-body1 {
+    @apply font-inter font-medium text-lg;
+  }
+  .medium-body2 {
+    @apply font-inter font-medium text-base;
+  }
+  .medium-body3 {
+    @apply font-inter font-medium text-sm;
+  }
+  .medium-body4 {
+    @apply font-inter font-medium text-xs;
+  }
+}
