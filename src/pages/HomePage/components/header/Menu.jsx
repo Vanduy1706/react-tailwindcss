@@ -5,7 +5,7 @@ export default function Menu({ toggle, setToggle }) {
         setToggle(!toggle);
       }}
       className="w-6 h-6 cursor-pointer xl:hidden"
-      src="/src/assets/bars-solid.svg"
+      src="/bars-solid.svg"
       alt="Icon"
     />
   );
