@@ -10,7 +10,7 @@ export default function ForumType({ srcImg, content, btnName }) {
         </p>
         <Button className={"btn-no-bg flex flex-row items-center mx-auto my-0"}>
           <span>{btnName}</span>
-          <img src="/src/assets/Right.svg" alt="Icon" />
+          <img src="/Right.svg" alt="Icon" />
         </Button>
       </span>
     </div>
